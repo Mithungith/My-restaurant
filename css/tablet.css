@@ -1,0 +1,40 @@
+/* body{
+    background-color: red;
+} */
+#home::before{
+    width:163%;
+    height:75%;
+}
+
+#home{
+    padding:65px;
+    height: 320px;
+}
+.h-primary{
+    font-size:1.9rem;
+}
+#home p{
+    font-size: 1.2rem;;
+}
+#services{
+    flex-direction:column;
+    margin: 80px 20px;
+    overflow:hidden;
+}
+#clients{
+    overflow:hidden;
+    flex-wrap: wrap;
+}
+#client-section {
+    height: 320px;
+}
+.client-item {
+    padding: 8px;
+}
+#clients img {
+    
+    width:70px;
+    background: none;
+    padding:10px;
+    height:auto;
+}

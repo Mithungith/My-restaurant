@@ -1,0 +1,47 @@
+body{
+   overflow: hidden;
+}
+/*Navigation section*/
+#navbar{
+    flex-direction:column;
+}
+#navbar ul a{
+    font-size: 1.1rem;
+}
+/*Home section*/
+#home{
+    padding: 20px 55px;
+    height: 504px;
+}
+#home::before{
+    height:80%;
+}
+.h-primary{
+    font-size:1.5rem;
+}
+#home p{
+    font-size: 1rem;;
+}
+/*service section*/
+#services{
+   flex-direction:column;
+   margin: 30px 20px;
+   overflow:hidden;
+}
+/*client section*/
+#clients{
+    overflow:hidden;
+    
+}
+/*Contact us*/
+
+/*Footer section*/
+@media screen {
+    
+}
+@media screen and (min-width: 500px) {
+
+    #home::before{
+        height:120%;
+    }
+  }
